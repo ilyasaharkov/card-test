@@ -29,7 +29,7 @@ export default {
       this._vm.$toast.success('Карточка добавленна')
     },
     sendCardTrash({commit}, dataItem) {
-      console.log('dataItem', dataItem)
+      // console.log('dataItem', dataItem)
       commit('updateTrash', dataItem)
       this._vm.$toast.success('Карточка перенесенна в корзину')
     }
